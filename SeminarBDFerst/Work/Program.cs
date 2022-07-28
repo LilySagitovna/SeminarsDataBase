@@ -7,7 +7,7 @@ for (int i = 0; i < 10; i++)
     string lastName = $"Имя_{i}";
     int id = i;
     string mark = marks[new Random().Next(marks.Length)];
-    result += $"{id}\t{ferstName}\t{lastName}\t{mark};\n";
+    result += $"{id}\t{ferstName}\t{lastName}\t{mark}\n";
 }
 
 //Console.WriteLine($"{result}");
